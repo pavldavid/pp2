@@ -22,13 +22,9 @@
 <body>
     <p>PHP Array Practice
         <?php
+        include "functions.php";
         $numbers = array(7, 9, 8, 9, 8, 8, 6);
 
-        function printArr($arr){
-            foreach ($arr as &$num){
-                echo "<p>$num</p>";
-            }
-        }
         printArr($numbers);
         ?>
     </p>
