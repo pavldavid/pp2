@@ -27,6 +27,7 @@
 
         printArr($numbers);
         largest($numbers);
+        removeDups($numbers);
         ?>
     </p>
 </body>

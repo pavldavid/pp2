@@ -15,3 +15,9 @@ function largest($arr){
     }
     echo "<br><p>$larg</p>";
 }
+
+function removeDups($arr){
+    $sorted = array_unique($arr);
+    $string = implode(",", $sorted);
+    echo "<br><p>[$string]</p>";
+}
